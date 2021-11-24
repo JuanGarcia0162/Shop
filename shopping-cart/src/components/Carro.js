@@ -1,5 +1,6 @@
 import { Component } from "react";
-import Button from "./Button";
+import BubbleAlert from "./BubbleAlert";
+
 
 const styles = {
     carro: {
@@ -9,6 +10,12 @@ const styles = {
         border: 'none',
         padding: '15px',
         borderRadius: '15px',
+    },
+    bubble: {
+      position: 'relative',
+      left: 12,
+      top: 20,
+      
     }
 }
 
@@ -16,7 +23,10 @@ class Carro extends Component {
   render() {
     return (
       <div>
-        <Button style={styles.carro}>Carro</Button>
+        <span style={styles.bubble}>
+          <BubbleAlert/>
+        </span>
+        <button style={styles.carro}>Carro</button>
       </div>
     );
   }
