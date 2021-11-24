@@ -1,5 +1,7 @@
 import { Component } from "react";
 import Logo from './Logo'
+import Carro from './Carro'
+
 
 const styles = {
     navbar: {
@@ -9,7 +11,7 @@ const styles = {
         heigth: "100px",
         justifyContent: "space-between",
         position: "relative",
-        padding: "0px 50px",
+        padding: "20px 50px",
         boxShadow: "0px 2px 3px rgb(0,0,0,0.1)",
     }
 }
@@ -19,7 +21,7 @@ class Navbar extends Component {
     return (
         <nav style={styles.navbar}>
             <Logo/>
-            <p>Carro</p>
+            <Carro/>
         </nav>
     );
   }

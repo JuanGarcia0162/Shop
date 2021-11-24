@@ -1,17 +1,14 @@
 import { Component } from "react";
 
-
 const styles = {
-    title: {
-    marginBottom: "30px"
-    }
+  title: {
+    marginBottom: "30px",
+  },
 };
 
 class Title extends Component {
   render() {
-    return (
-        <h1 style={styles.title}>Vaju-Premium</h1>
-    );
+    return <h1 style={styles.title}>Productos</h1>;
   }
 }
 
