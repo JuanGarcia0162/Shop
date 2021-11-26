@@ -4,7 +4,7 @@ const styles = {
   detallesCarro: {
     backgroundColor: "#fff",
     position: "absolute",
-    marginTop: "30px",
+    marginTop: 30,
     boxShadow: "1px 5px 5px rgb(0,0,0,0.3)",
     borderRadius: "5px",
     width: "300px",
@@ -23,7 +23,6 @@ const styles = {
       borderBottom: "1px solid #aaa",
   },
 };
-
 class DetallesCarro extends Component {
   render() {
     const { carro } = this.props;
